@@ -8,7 +8,7 @@ interface Todo {
   title: string;
   completed: boolean;
 }
-
+//
 const TodosScreen = () => {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
